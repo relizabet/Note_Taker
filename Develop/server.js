@@ -5,14 +5,15 @@ const express = require("express");
 const app = express();
 
 // sets initial port
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 
 // handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static("public"));
 
 // router
-require("./routes.api")(app);
+require("./routes/api")(app);
 require("./routes/html")(app);
 
 // listener
