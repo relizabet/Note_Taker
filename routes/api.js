@@ -36,8 +36,9 @@ module.exports = (app) => {
   });
 
   app.delete("/api/notes/:id", (req, res) => {
-    const existingNotes = req.body;
-    console.log(existingNotes);
+    //
+    // const existingNotes = req.body;
+    // console.log(existingNotes);
 
     fs.readFile("./db/db.json", (err, data) => {
       if (err) throw err;
