@@ -43,7 +43,11 @@ module.exports = (app) => {
     fs.readFile("./db/db.json", (err, data) => {
       if (err) throw err;
       const jsonReq = JSON.parse(data);
+      console.log(jsonReq.id);
       console.log(jsonReq);
+      const noteArr = JSON.stringify(jsonReq);
+      console.log(noteArr);
+      console.log(noteArr.id);
     });
   });
 };

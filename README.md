@@ -1,5 +1,19 @@
 # Note Taker
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Description
+
+A note taking application that allows 
+
+## Table of Contents
+
+- [Note Taker](#note-taker)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [User Story](#user-story)
+  - [Acceptance Criteria](#acceptance-criteria)
+
 ## User Story
 
 ```
