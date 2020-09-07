@@ -4,7 +4,7 @@
 
 ## Description
 
-A note taking application that allows 
+A note taking application that allows
 
 ## Table of Contents
 
@@ -13,6 +13,12 @@ A note taking application that allows
   - [Table of Contents](#table-of-contents)
   - [User Story](#user-story)
   - [Acceptance Criteria](#acceptance-criteria)
+  - [Usage](#usage)
+  - [Built With](#built-with)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Testing](#testing)
+  - [Contact](#contact)
 
 ## User Story
 
@@ -33,3 +39,36 @@ Application should allow users to view previously saved notes.
 
 Application should allow users to delete previously saved notes.
 ```
+
+## Usage
+
+View the deployed heroku application [here](https://warm-bayou-36809.herokuapp.com/).
+
+![Note Front Page](public/assets/note.png)
+
+![Add Note](public/assets/note2.png)
+
+## Built With
+
+- node.js
+- express
+- uuid
+
+## License
+
+[MIT](LICENSE)
+
+## Contributing
+
+To contribute to this project create a branch with the feature or correction then submit a pull request.
+
+## Testing
+
+No tests have been created for this application at this time.
+
+## Contact
+
+Please direct any questions or concerns directly to me via my email address listed below.
+
+- Github: [relizabet](https://github.com/relizabet)
+- Email: rachel@relizabeth.com
